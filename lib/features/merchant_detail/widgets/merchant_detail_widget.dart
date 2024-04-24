@@ -115,7 +115,8 @@ class MerchantDeatilWidget extends StatelessWidget {
                       icon: AppAssets.shareIcon,
                       title: 'Share',
                       onTap: () {
-                        Share.share('check out my website https://example.com');
+                        Share.share(
+                            'check out my store ${merchantModel.brandImage}');
                       },
                       context: context),
                 ],
